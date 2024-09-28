@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="task-container">
+        <h1 class="task-title">Социальные задания</h1>
+    </div>
+
+    <div class="task">
+        <h2>Смотреть видео на YouTube</h2>
+        <p>Просмотрите видео и получите 20 кармы.</p>
+        <a href="https://www.youtube.com/watch?v=Sdv8_8IV9jA" target="_blank" class="submit-btn" onclick="update(20)">Смотреть видео</a>
+    </div>
+
+    <div class="navbar">
+        <a href="index.html" class="active">
+            <img src="/Icons/Home white.png" alt="Home" class="navbar-icon"> Home
+        </a>
+        <a href="tasks.html">
+            <img src="/Icons/Tasks white.png" alt="Tasks" class="navbar-icon"> Tasks
+        </a>
+        <a href="friends.html">
+            <img src="/Icons/Friends white.png" alt="Friends" class="navbar-icon"> Friends
+        </a>
+    </div>
+
+    <div class="karma-counter">
+        <h2>Карма: <span id="karma-balance">0$</span></h2>
+    </div>
+
+    <script src="tasks.js"></script>
+</body>
+</html>
